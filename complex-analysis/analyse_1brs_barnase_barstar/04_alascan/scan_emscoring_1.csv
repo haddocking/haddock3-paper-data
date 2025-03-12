@@ -1,0 +1,11 @@
+##########################################################
+# `alascan` results for emscoring_1.pdb
+#
+# native score = -156.9105
+#
+# z_score is calculated with respect to the other residues
+##########################################################
+chain	res	ori_resname	end_resname	score	vdw	elec	desolv	bsa	delta_score	delta_vdw	delta_elec	delta_desolv	delta_bsa	z_score
+A	83	ARG	GLN	-151.40	-71.34	-350.44	-9.98	1613.21	-5.51	7.82	-76.77	2.03	-20.62	-0.40
+A	73	GLU	GLN	-167.28	-67.41	-459.79	-7.92	1588.06	10.37	3.88	32.59	-0.03	4.53	1.38
+A	102	HIS	GLN	-146.35	-62.00	-398.28	-4.69	1588.14	-10.56	-1.52	-28.93	-3.25	4.45	-0.97

@@ -1,0 +1,9 @@
+#######################################################################
+# `alascan` cluster results for cluster -
+#
+# z_score is calculated with respect to the mean values of all residues
+#######################################################################
+chain	resnum	resname	full_resname	delta_score	delta_vdw	delta_elec	delta_desolv	delta_bsa	frac_pres	z_score
+A	73	GLU	A-73-GLU	10.37	3.88	32.59	-0.03	4.53	1.00	1.38
+A	83	ARG	A-83-ARG	-5.51	7.82	-76.77	2.03	-20.62	1.00	-0.40
+A	102	HIS	A-102-HIS	-10.56	-1.52	-28.93	-3.25	4.45	1.00	-0.97

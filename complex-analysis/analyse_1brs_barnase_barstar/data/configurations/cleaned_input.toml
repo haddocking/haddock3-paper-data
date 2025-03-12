@@ -1,0 +1,58 @@
+run_dir = "analyse_1brs_barnase_barstar"
+molecules = "1brs_AD.pdb"
+
+['topoaa.1']
+
+['emscoring.1']
+
+['contactmap.1']
+
+['alascan.1']
+scan_residue = "ALA"
+resdic_A = [27, 59, 87, 102, 73, 54, 58, 60]
+resdic_D = [29, 35, 39, 42, 76, 80]
+
+['alascan.2']
+scan_residue = "GLN"
+resdic_A = [83, 73, 102]
+
+['alascan.3']
+scan_residue = "PHE"
+resdic_A = [73, 35]
+resdic_D = [29, 38, 44]
+
+['alascan.4']
+scan_residue = "TRP"
+resdic_A = [73]
+
+['alascan.5']
+scan_residue = "TYR"
+resdic_A = [73]
+
+['alascan.6']
+scan_residue = "CYS"
+resdic_A = [73]
+
+['alascan.7']
+scan_residue = "SER"
+resdic_A = [73]
+
+['alascan.8']
+scan_residue = "LYS"
+resdic_A = [59]
+
+['alascan.9']
+scan_residue = "ASP"
+resdic_A = [102]
+
+['alascan.10']
+scan_residue = "GLY"
+resdic_A = [102]
+
+['alascan.11']
+scan_residue = "LEU"
+resdic_A = [102]
+
+['alascan.12']
+plot = true
+

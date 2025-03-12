@@ -1,0 +1,223 @@
+{
+    "cns_exec": "",
+    "ncores": 4,
+    "max_cpus": true,
+    "mode": "local",
+    "batch_type": "slurm",
+    "queue": "",
+    "queue_limit": 100,
+    "concat": 1,
+    "self_contained": false,
+    "clean": true,
+    "offline": false,
+    "debug": false,
+    "preprocess": false,
+    "postprocess": true,
+    "run_dir": "analyse_1brs_barnase_barstar",
+    "molecules": [
+        "1brs_AD.pdb"
+    ],
+    "topoaa.1": {
+        "molecules": [
+            "1brs_AD.pdb"
+        ],
+        "mol1": {
+            "cyclicpept": false,
+            "nhisd": 0,
+            "hisd_1": NaN,
+            "nhise": 0,
+            "hise_1": NaN
+        },
+        "autohis": true,
+        "delenph": true,
+        "log_level": "quiet",
+        "iniseed": 917,
+        "ligand_param_fname": "",
+        "ligand_top_fname": "",
+        "limit": true,
+        "set_bfactor": true,
+        "tolerance": 0,
+        "cyclicpept_dist": 2.0,
+        "disulphide_dist": 2.2
+    },
+    "emscoring.1": {
+        "per_interface_scoring": false,
+        "w_air": 0.0,
+        "w_bsa": 0.0,
+        "w_cdih": 0.0,
+        "w_dani": 0.0,
+        "w_deint": 0.0,
+        "w_desolv": 1.0,
+        "w_elec": 0.2,
+        "w_lcc": -10000.0,
+        "w_rg": 0.0,
+        "w_sani": 0.0,
+        "w_sym": 0.0,
+        "w_vdw": 1.0,
+        "w_vean": 0.0,
+        "w_xpcs": 0.0,
+        "w_xrdc": 0.0,
+        "w_zres": 0.0,
+        "ligand_param_fname": "",
+        "ligand_top_fname": "",
+        "elecflag": true,
+        "dielec": "cdie",
+        "epsilon": 1.0,
+        "dihedflag": true,
+        "individualize": true,
+        "nemsteps": 50,
+        "tolerance": 5,
+        "log_level": "quiet"
+    },
+    "contactmap.1": {
+        "ca_ca_dist_threshold": 9.0,
+        "shortest_dist_threshold": 4.5,
+        "color_ramp": "Greys",
+        "single_model_analysis": false,
+        "generate_heatmap": true,
+        "generate_chordchart": true,
+        "topX": 10,
+        "cluster_heatmap_datatype": "shortest-cont-probability",
+        "chordchart_datatype": "shortest-dist"
+    },
+    "alascan.1": {
+        "scan_residue": "ALA",
+        "resdic_A": [
+            27,
+            59,
+            87,
+            102,
+            73,
+            54,
+            58,
+            60
+        ],
+        "resdic_D": [
+            29,
+            35,
+            39,
+            42,
+            76,
+            80
+        ],
+        "resdic_": [],
+        "int_cutoff": 5.0,
+        "output": false,
+        "plot": false
+    },
+    "alascan.2": {
+        "scan_residue": "GLN",
+        "resdic_A": [
+            83,
+            73,
+            102
+        ],
+        "resdic_": [],
+        "int_cutoff": 5.0,
+        "output": false,
+        "plot": false
+    },
+    "alascan.3": {
+        "scan_residue": "PHE",
+        "resdic_A": [
+            73,
+            35
+        ],
+        "resdic_D": [
+            29,
+            38,
+            44
+        ],
+        "resdic_": [],
+        "int_cutoff": 5.0,
+        "output": false,
+        "plot": false
+    },
+    "alascan.4": {
+        "scan_residue": "TRP",
+        "resdic_A": [
+            73
+        ],
+        "resdic_": [],
+        "int_cutoff": 5.0,
+        "output": false,
+        "plot": false
+    },
+    "alascan.5": {
+        "scan_residue": "TYR",
+        "resdic_A": [
+            73
+        ],
+        "resdic_": [],
+        "int_cutoff": 5.0,
+        "output": false,
+        "plot": false
+    },
+    "alascan.6": {
+        "scan_residue": "CYS",
+        "resdic_A": [
+            73
+        ],
+        "resdic_": [],
+        "int_cutoff": 5.0,
+        "output": false,
+        "plot": false
+    },
+    "alascan.7": {
+        "scan_residue": "SER",
+        "resdic_A": [
+            73
+        ],
+        "resdic_": [],
+        "int_cutoff": 5.0,
+        "output": false,
+        "plot": false
+    },
+    "alascan.8": {
+        "scan_residue": "LYS",
+        "resdic_A": [
+            59
+        ],
+        "resdic_": [],
+        "int_cutoff": 5.0,
+        "output": false,
+        "plot": false
+    },
+    "alascan.9": {
+        "scan_residue": "ASP",
+        "resdic_A": [
+            102
+        ],
+        "resdic_": [],
+        "int_cutoff": 5.0,
+        "output": false,
+        "plot": false
+    },
+    "alascan.10": {
+        "scan_residue": "GLY",
+        "resdic_A": [
+            102
+        ],
+        "resdic_": [],
+        "int_cutoff": 5.0,
+        "output": false,
+        "plot": false
+    },
+    "alascan.11": {
+        "scan_residue": "LEU",
+        "resdic_A": [
+            102
+        ],
+        "resdic_": [],
+        "int_cutoff": 5.0,
+        "output": false,
+        "plot": false
+    },
+    "alascan.12": {
+        "plot": true,
+        "resdic_": [],
+        "int_cutoff": 5.0,
+        "output": false,
+        "scan_residue": "ALA"
+    }
+}

@@ -1,0 +1,68 @@
+################################################################################
+# This file contains extracted interchain contacts information
+# res1: Chain-Resname-ResID key identifying first residue
+# res2: Chain-Resname-ResID key identifying second residue
+# ca-ca-dist: Observed distances between the two carbon alpha (Ca) atoms
+# contact-type: ResidueType - ResidueType contact name
+# shortest-dist: Observed shortest distance between the two residues
+################################################################################
+res1	res2	ca-ca-dist	contact-type	shortest-dist
+A-27-LYS	D-42-THR	7.8	positive-polar	2.9
+A-27-LYS	D-43-GLY	7.5	positive-apolar	5.2
+A-36-VAL	D-43-GLY	8.3	apolar-apolar	7.1
+A-36-VAL	D-44-TRP	8.4	apolar-polar	6.4
+A-36-VAL	D-46-GLU	8.1	apolar-negative	6.5
+A-37-ALA	D-42-THR	8.0	apolar-polar	5.1
+A-37-ALA	D-43-GLY	5.2	apolar-apolar	3.5
+A-37-ALA	D-44-TRP	4.8	apolar-polar	3.3
+A-37-ALA	D-45-VAL	6.7	apolar-apolar	4.4
+A-37-ALA	D-46-GLU	7.0	apolar-negative	6.2
+A-38-SER	D-43-GLY	7.9	polar-apolar	6.0
+A-38-SER	D-44-TRP	5.5	polar-polar	3.6
+A-38-SER	D-45-VAL	5.9	polar-apolar	4.5
+A-38-SER	D-46-GLU	5.1	polar-negative	3.6
+A-38-SER	D-47-TYR	8.2	polar-polar	4.9
+A-39-LYS	D-44-TRP	8.6	positive-polar	5.9
+A-39-LYS	D-46-GLU	8.5	positive-negative	7.0
+A-40-GLY	D-44-TRP	8.1	apolar-polar	7.1
+A-56-PHE	D-35-ASP	8.3	apolar-negative	3.6
+A-57-SER	D-35-ASP	7.7	polar-negative	4.5
+A-58-ASN	D-34-LEU	8.7	polar-apolar	7.0
+A-58-ASN	D-35-ASP	6.7	polar-negative	3.7
+A-59-ARG	D-33-ASN	8.6	positive-polar	6.8
+A-59-ARG	D-34-LEU	5.9	positive-apolar	3.7
+A-59-ARG	D-35-ASP	5.6	positive-negative	2.8
+A-59-ARG	D-38-TRP	8.9	positive-polar	3.3
+A-60-GLU	D-33-ASN	7.3	negative-polar	3.3
+A-60-GLU	D-34-LEU	6.3	negative-apolar	2.7
+A-60-GLU	D-35-ASP	6.7	negative-negative	3.3
+A-82-PHE	D-44-TRP	7.7	apolar-polar	3.6
+A-83-ARG	D-43-GLY	7.8	positive-apolar	3.1
+A-83-ARG	D-44-TRP	7.5	positive-polar	3.5
+A-84-ASN	D-27-PRO	8.7	polar-apolar	6.8
+A-84-ASN	D-29-TYR	8.1	polar-polar	3.1
+A-85-SER	D-29-TYR	6.7	polar-polar	3.6
+A-85-SER	D-30-TYR	8.1	polar-polar	6.7
+A-85-SER	D-31-GLY	8.5	polar-apolar	7.2
+A-101-ASP	D-29-TYR	7.1	negative-polar	4.6
+A-101-ASP	D-30-TYR	8.3	negative-polar	5.7
+A-101-ASP	D-31-GLY	6.6	negative-apolar	4.3
+A-102-HIS	D-29-TYR	6.8	polar-polar	3.5
+A-102-HIS	D-30-TYR	6.4	polar-polar	3.7
+A-102-HIS	D-31-GLY	4.8	polar-apolar	3.1
+A-102-HIS	D-32-GLU	8.4	polar-negative	5.4
+A-102-HIS	D-33-ASN	8.7	polar-polar	3.3
+A-102-HIS	D-35-ASP	8.2	polar-negative	5.6
+A-102-HIS	D-36-ALA	5.9	polar-apolar	3.5
+A-102-HIS	D-39-ASP	8.8	polar-negative	2.8
+A-103-TYR	D-31-GLY	6.2	polar-apolar	5.7
+A-103-TYR	D-32-GLU	8.8	polar-negative	7.4
+A-103-TYR	D-33-ASN	7.5	polar-polar	3.6
+A-103-TYR	D-34-LEU	8.8	polar-apolar	6.7
+A-103-TYR	D-35-ASP	6.3	polar-negative	3.8
+A-103-TYR	D-36-ALA	6.0	polar-apolar	3.7
+A-104-GLN	D-31-GLY	5.7	polar-apolar	3.2
+A-104-GLN	D-32-GLU	7.8	polar-negative	5.3
+A-104-GLN	D-33-ASN	7.1	polar-polar	3.7
+A-104-GLN	D-35-ASP	8.6	polar-negative	6.9
+A-104-GLN	D-36-ALA	8.0	polar-apolar	6.4

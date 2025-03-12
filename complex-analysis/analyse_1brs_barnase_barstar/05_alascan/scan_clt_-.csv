@@ -1,0 +1,11 @@
+#######################################################################
+# `alascan` cluster results for cluster -
+#
+# z_score is calculated with respect to the mean values of all residues
+#######################################################################
+chain	resnum	resname	full_resname	delta_score	delta_vdw	delta_elec	delta_desolv	delta_bsa	frac_pres	z_score
+A	35	TRP	A-35-TRP	2.65	0.80	8.84	0.08	-4.68	1.00	0.09
+A	73	GLU	A-73-GLU	10.52	3.58	20.05	2.94	-5.94	1.00	1.63
+D	29	TYR	D-29-TYR	-3.98	-5.78	11.81	-0.56	0.60	1.00	-1.21
+D	38	TRP	D-38-TRP	3.96	-0.72	0.61	4.56	-6.61	1.00	0.35
+D	44	TRP	D-44-TRP	-2.17	-0.79	-8.99	0.42	11.41	1.00	-0.86

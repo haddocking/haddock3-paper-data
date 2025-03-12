@@ -1,0 +1,13 @@
+##########################################################
+# `alascan` results for emscoring_1.pdb
+#
+# native score = -156.9105
+#
+# z_score is calculated with respect to the other residues
+##########################################################
+chain	res	ori_resname	end_resname	score	vdw	elec	desolv	bsa	delta_score	delta_vdw	delta_elec	delta_desolv	delta_bsa	z_score
+A	73	GLU	PHE	-167.43	-67.10	-447.26	-10.88	1598.53	10.52	3.58	20.05	2.94	-5.94	1.63
+A	35	TRP	PHE	-159.56	-64.33	-436.04	-8.02	1597.27	2.65	0.80	8.84	0.08	-4.68	0.09
+D	29	TYR	PHE	-152.93	-57.74	-439.02	-7.39	1591.99	-3.98	-5.78	11.81	-0.56	0.60	-1.21
+D	38	TRP	PHE	-160.87	-62.80	-427.81	-12.50	1599.20	3.96	-0.72	0.61	4.56	-6.61	0.35
+D	44	TRP	PHE	-154.74	-62.74	-418.21	-8.36	1581.18	-2.17	-0.79	-8.99	0.42	11.41	-0.86

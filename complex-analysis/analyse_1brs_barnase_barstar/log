@@ -1,0 +1,497 @@
+[2025-03-05 15:00:00,802 cli INFO] 
+##############################################
+#                                            #
+#                 HADDOCK3                   #
+#                                            #
+##############################################
+
+!! Some of the HADDOCK3 components use CNS (Crystallographic and NMR System) which is free of use for non-profit applications. !!
+!! For commercial use it is your own responsibility to have a proper license. !!
+!! For details refer to the DISCLAIMER file in the HADDOCK3 repository. !!
+
+Starting HADDOCK3 v2024.10.0b7 on 2025-03-05 15:00:00
+
+Python 3.9.20 (main, Oct  3 2024, 02:24:59) 
+[Clang 14.0.6 ]
+
+[2025-03-05 15:00:01,141 libworkflow INFO] Reading instructions step 0_topoaa
+[2025-03-05 15:00:01,142 libworkflow INFO] Reading instructions step 1_emscoring
+[2025-03-05 15:00:01,142 libworkflow INFO] Reading instructions step 2_contactmap
+[2025-03-05 15:00:01,142 libworkflow INFO] Reading instructions step 3_alascan
+[2025-03-05 15:00:01,142 libworkflow INFO] Reading instructions step 4_alascan
+[2025-03-05 15:00:01,142 libworkflow INFO] Reading instructions step 5_alascan
+[2025-03-05 15:00:01,142 libworkflow INFO] Reading instructions step 6_alascan
+[2025-03-05 15:00:01,142 libworkflow INFO] Reading instructions step 7_alascan
+[2025-03-05 15:00:01,142 libworkflow INFO] Reading instructions step 8_alascan
+[2025-03-05 15:00:01,142 libworkflow INFO] Reading instructions step 9_alascan
+[2025-03-05 15:00:01,142 libworkflow INFO] Reading instructions step 10_alascan
+[2025-03-05 15:00:01,142 libworkflow INFO] Reading instructions step 11_alascan
+[2025-03-05 15:00:01,142 libworkflow INFO] Reading instructions step 12_alascan
+[2025-03-05 15:00:01,142 libworkflow INFO] Reading instructions step 13_alascan
+[2025-03-05 15:00:01,142 libworkflow INFO] Reading instructions step 14_alascan
+[2025-03-05 15:00:01,160 base_cns_module INFO] Running [topoaa] module
+[2025-03-05 15:00:01,160 __init__ INFO] [topoaa] Molecule 1: 1brs_AD.pdb
+[2025-03-05 15:00:01,162 __init__ INFO] [topoaa] Sanitizing molecule 1brs_AD.pdb
+[2025-03-05 15:00:01,166 __init__ INFO] [topoaa] Topology CNS input created
+[2025-03-05 15:00:01,167 __init__ INFO] [topoaa] Running CNS Jobs n=1
+[2025-03-05 15:00:01,167 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:00:01,194 libparallel INFO] Using 1 cores
+[2025-03-05 15:00:02,810 libparallel INFO] 1 tasks finished
+[2025-03-05 15:00:02,810 __init__ INFO] [topoaa] CNS jobs have finished
+[2025-03-05 15:00:02,812 base_cns_module INFO] Module [topoaa] finished.
+[2025-03-05 15:00:02,812 __init__ INFO] [topoaa] took 2 seconds
+[2025-03-05 15:00:02,841 base_cns_module INFO] Running [emscoring] module
+[2025-03-05 15:00:02,842 __init__ INFO] [emscoring] Running CNS Jobs n=1
+[2025-03-05 15:00:02,842 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:00:02,843 libparallel INFO] Using 1 cores
+[2025-03-05 15:00:03,580 libparallel INFO] 1 tasks finished
+[2025-03-05 15:00:03,581 __init__ INFO] [emscoring] CNS jobs have finished
+[2025-03-05 15:00:03,581 __init__ INFO] [emscoring] Saving output to emscoring.tsv
+[2025-03-05 15:00:03,585 base_cns_module INFO] Module [emscoring] finished.
+[2025-03-05 15:00:03,585 __init__ INFO] [emscoring] took 1 seconds
+[2025-03-05 15:00:03,596 __init__ INFO] Running [contactmap] module
+[2025-03-05 15:00:03,596 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:00:03,596 libparallel INFO] Using 1 cores
+[2025-03-05 15:00:04,716 libparallel INFO] 1 tasks finished
+[2025-03-05 15:00:04,717 contmap INFO] Generated report file: ContactMapReport.html
+[2025-03-05 15:00:04,718 __init__ INFO] Module [contactmap] finished.
+[2025-03-05 15:00:04,718 __init__ INFO] [contactmap] took 1 seconds
+[2025-03-05 15:00:04,725 __init__ INFO] Running [alascan] module
+[2025-03-05 15:00:04,725 libutil INFO] Selected 1 cores to process 1 jobs, with 7 maximum available cores.
+[2025-03-05 15:00:04,725 __init__ INFO] Running on 1 cores
+[2025-03-05 15:00:04,725 scan INFO] core 0, initialising Scan...
+[2025-03-05 15:00:04,725 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:00:04,726 libparallel INFO] Using 1 cores
+[2025-03-05 15:00:36,950 libparallel INFO] 1 tasks finished
+[2025-03-05 15:00:36,953 scan INFO] Writing scan_clt_-.csv
+[2025-03-05 15:00:36,958 __init__ INFO] Module [alascan] finished.
+[2025-03-05 15:00:36,958 __init__ INFO] [alascan] took 32 seconds
+[2025-03-05 15:00:36,965 __init__ INFO] Running [alascan] module
+[2025-03-05 15:00:36,965 libutil INFO] Selected 1 cores to process 1 jobs, with 7 maximum available cores.
+[2025-03-05 15:00:36,965 __init__ INFO] Running on 1 cores
+[2025-03-05 15:00:36,966 scan INFO] core 0, initialising Scan...
+[2025-03-05 15:00:36,966 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:00:36,966 libparallel INFO] Using 1 cores
+[2025-03-05 15:00:46,278 libparallel INFO] 1 tasks finished
+[2025-03-05 15:00:46,280 scan INFO] Writing scan_clt_-.csv
+[2025-03-05 15:00:46,283 __init__ INFO] Module [alascan] finished.
+[2025-03-05 15:00:46,283 __init__ INFO] [alascan] took 9 seconds
+[2025-03-05 15:00:46,290 __init__ INFO] Running [alascan] module
+[2025-03-05 15:00:46,291 libutil INFO] Selected 1 cores to process 1 jobs, with 7 maximum available cores.
+[2025-03-05 15:00:46,291 __init__ INFO] Running on 1 cores
+[2025-03-05 15:00:46,291 scan INFO] core 0, initialising Scan...
+[2025-03-05 15:00:46,291 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:00:46,291 libparallel INFO] Using 1 cores
+[2025-03-05 15:01:00,443 libparallel INFO] 1 tasks finished
+[2025-03-05 15:01:00,447 scan INFO] Writing scan_clt_-.csv
+[2025-03-05 15:01:00,450 __init__ INFO] Module [alascan] finished.
+[2025-03-05 15:01:00,450 __init__ INFO] [alascan] took 14 seconds
+[2025-03-05 15:01:00,458 __init__ INFO] Running [alascan] module
+[2025-03-05 15:01:00,458 libutil INFO] Selected 1 cores to process 1 jobs, with 7 maximum available cores.
+[2025-03-05 15:01:00,458 __init__ INFO] Running on 1 cores
+[2025-03-05 15:01:00,458 scan INFO] core 0, initialising Scan...
+[2025-03-05 15:01:00,458 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:01:00,458 libparallel INFO] Using 1 cores
+[2025-03-05 15:01:05,310 libparallel INFO] 1 tasks finished
+[2025-03-05 15:01:05,312 scan INFO] Writing scan_clt_-.csv
+[2025-03-05 15:01:05,314 __init__ INFO] Module [alascan] finished.
+[2025-03-05 15:01:05,314 __init__ INFO] [alascan] took 5 seconds
+[2025-03-05 15:01:05,322 __init__ INFO] Running [alascan] module
+[2025-03-05 15:01:05,322 libutil INFO] Selected 1 cores to process 1 jobs, with 7 maximum available cores.
+[2025-03-05 15:01:05,322 __init__ INFO] Running on 1 cores
+[2025-03-05 15:01:05,322 scan INFO] core 0, initialising Scan...
+[2025-03-05 15:01:05,322 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:01:05,322 libparallel INFO] Using 1 cores
+[2025-03-05 15:01:10,098 libparallel INFO] 1 tasks finished
+[2025-03-05 15:01:10,101 scan INFO] Writing scan_clt_-.csv
+[2025-03-05 15:01:10,103 __init__ INFO] Module [alascan] finished.
+[2025-03-05 15:01:10,103 __init__ INFO] [alascan] took 5 seconds
+[2025-03-05 15:01:10,111 __init__ INFO] Running [alascan] module
+[2025-03-05 15:01:10,111 libutil INFO] Selected 1 cores to process 1 jobs, with 7 maximum available cores.
+[2025-03-05 15:01:10,111 __init__ INFO] Running on 1 cores
+[2025-03-05 15:01:10,111 scan INFO] core 0, initialising Scan...
+[2025-03-05 15:01:10,111 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:01:10,111 libparallel INFO] Using 1 cores
+[2025-03-05 15:01:14,716 libparallel INFO] 1 tasks finished
+[2025-03-05 15:01:14,718 scan INFO] Writing scan_clt_-.csv
+[2025-03-05 15:01:14,720 __init__ INFO] Module [alascan] finished.
+[2025-03-05 15:01:14,720 __init__ INFO] [alascan] took 5 seconds
+[2025-03-05 15:01:14,727 __init__ INFO] Running [alascan] module
+[2025-03-05 15:01:14,727 libutil INFO] Selected 1 cores to process 1 jobs, with 7 maximum available cores.
+[2025-03-05 15:01:14,727 __init__ INFO] Running on 1 cores
+[2025-03-05 15:01:14,727 scan INFO] core 0, initialising Scan...
+[2025-03-05 15:01:14,727 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:01:14,727 libparallel INFO] Using 1 cores
+[2025-03-05 15:01:19,437 libparallel INFO] 1 tasks finished
+[2025-03-05 15:01:19,439 scan INFO] Writing scan_clt_-.csv
+[2025-03-05 15:01:19,441 __init__ INFO] Module [alascan] finished.
+[2025-03-05 15:01:19,441 __init__ INFO] [alascan] took 5 seconds
+[2025-03-05 15:01:19,449 __init__ INFO] Running [alascan] module
+[2025-03-05 15:01:19,449 libutil INFO] Selected 1 cores to process 1 jobs, with 7 maximum available cores.
+[2025-03-05 15:01:19,449 __init__ INFO] Running on 1 cores
+[2025-03-05 15:01:19,449 scan INFO] core 0, initialising Scan...
+[2025-03-05 15:01:19,449 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:01:19,449 libparallel INFO] Using 1 cores
+[2025-03-05 15:01:24,222 libparallel INFO] 1 tasks finished
+[2025-03-05 15:01:24,224 scan INFO] Writing scan_clt_-.csv
+[2025-03-05 15:01:24,226 __init__ INFO] Module [alascan] finished.
+[2025-03-05 15:01:24,226 __init__ INFO] [alascan] took 5 seconds
+[2025-03-05 15:01:24,234 __init__ INFO] Running [alascan] module
+[2025-03-05 15:01:24,234 libutil INFO] Selected 1 cores to process 1 jobs, with 7 maximum available cores.
+[2025-03-05 15:01:24,234 __init__ INFO] Running on 1 cores
+[2025-03-05 15:01:24,234 scan INFO] core 0, initialising Scan...
+[2025-03-05 15:01:24,234 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:01:24,234 libparallel INFO] Using 1 cores
+[2025-03-05 15:01:28,913 libparallel INFO] 1 tasks finished
+[2025-03-05 15:01:28,916 scan INFO] Writing scan_clt_-.csv
+[2025-03-05 15:01:28,918 __init__ INFO] Module [alascan] finished.
+[2025-03-05 15:01:28,918 __init__ INFO] [alascan] took 5 seconds
+[2025-03-05 15:01:28,925 __init__ INFO] Running [alascan] module
+[2025-03-05 15:01:28,925 libutil INFO] Selected 1 cores to process 1 jobs, with 7 maximum available cores.
+[2025-03-05 15:01:28,925 __init__ INFO] Running on 1 cores
+[2025-03-05 15:01:28,925 scan INFO] core 0, initialising Scan...
+[2025-03-05 15:01:28,925 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:01:28,926 libparallel INFO] Using 1 cores
+[2025-03-05 15:01:33,515 libparallel INFO] 1 tasks finished
+[2025-03-05 15:01:33,518 scan INFO] Writing scan_clt_-.csv
+[2025-03-05 15:01:33,520 __init__ INFO] Module [alascan] finished.
+[2025-03-05 15:01:33,520 __init__ INFO] [alascan] took 5 seconds
+[2025-03-05 15:01:33,528 __init__ INFO] Running [alascan] module
+[2025-03-05 15:01:33,528 libutil INFO] Selected 1 cores to process 1 jobs, with 7 maximum available cores.
+[2025-03-05 15:01:33,528 __init__ INFO] Running on 1 cores
+[2025-03-05 15:01:33,528 scan INFO] core 0, initialising Scan...
+[2025-03-05 15:01:33,528 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:01:33,528 libparallel INFO] Using 1 cores
+[2025-03-05 15:01:38,168 libparallel INFO] 1 tasks finished
+[2025-03-05 15:01:38,170 scan INFO] Writing scan_clt_-.csv
+[2025-03-05 15:01:38,172 __init__ INFO] Module [alascan] finished.
+[2025-03-05 15:01:38,172 __init__ INFO] [alascan] took 5 seconds
+[2025-03-05 15:01:38,180 __init__ INFO] Running [alascan] module
+[2025-03-05 15:01:38,180 libutil INFO] Selected 1 cores to process 1 jobs, with 7 maximum available cores.
+[2025-03-05 15:01:38,180 __init__ INFO] Running on 1 cores
+[2025-03-05 15:01:38,180 scan INFO] core 0, initialising Scan...
+[2025-03-05 15:01:38,180 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:01:38,180 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:00,107 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:00,116 scan INFO] Writing scan_clt_-.csv
+[2025-03-05 15:03:00,119 libplots INFO] Generating ALA scanning plot scan_clt_-
+[2025-03-05 15:03:00,359 __init__ INFO] Module [alascan] finished.
+[2025-03-05 15:03:00,359 __init__ INFO] [alascan] took 1 minute and 22 seconds
+[2025-03-05 15:03:00,359 cli_analyse INFO] Running haddock3-analyse on ./, modules [], with top_cluster = 10
+[2025-03-05 15:03:00,369 cli_analyse INFO] Created directory: /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar/analysis
+[2025-03-05 15:03:00,369 cli_analyse INFO] Reading input run directory
+[2025-03-05 15:03:00,369 cli_analyse INFO] selected steps: 00_topoaa, 01_emscoring, 02_contactmap, 03_alascan, 04_alascan, 05_alascan, 06_alascan, 07_alascan, 08_alascan, 09_alascan, 10_alascan, 11_alascan, 12_alascan, 13_alascan, 14_alascan
+[2025-03-05 15:03:00,369 cli_analyse INFO] Analysing step 00_topoaa
+[2025-03-05 15:03:00,370 cli_analyse WARNING] Could not execute the analysis for step 00_topoaa. The following error occurred 'dict' object has no attribute 'rel_path'
+[2025-03-05 15:03:00,370 cli_analyse INFO] Analysing step 01_emscoring
+[2025-03-05 15:03:00,371 cli_unpack INFO] Unpacking '../01_emscoring' folder
+[2025-03-05 15:03:00,371 libtimer INFO] unpacking took 0 seconds
+[2025-03-05 15:03:00,389 capri INFO] Found previous CNS step: 01_emscoring
+[2025-03-05 15:03:00,699 capri INFO] Saved scoring weights to: weights_params.json
+[2025-03-05 15:03:00,699 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2025-03-05 15:03:00,701 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:03:00,701 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:01,233 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:01,234 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2025-03-05 15:03:01,235 cli_clean INFO] Compressing '../01_emscoring' folder
+[2025-03-05 15:03:01,235 clean_steps INFO] Cleaning output for '../01_emscoring' using 4 cores.
+[2025-03-05 15:03:02,234 libtimer INFO] compressing took 1 seconds
+[2025-03-05 15:03:02,234 cli_analyse INFO] CAPRI files identified
+[2025-03-05 15:03:02,236 cli_analyse INFO] Plotting results..
+[2025-03-05 15:03:02,988 cli_analyse INFO] Summary archive summary.tgz created!
+[2025-03-05 15:03:02,988 cli_analyse INFO] Analysing step 02_contactmap
+[2025-03-05 15:03:02,989 cli_unpack INFO] Unpacking '../01_emscoring' folder
+[2025-03-05 15:03:03,400 libtimer INFO] unpacking took 0 seconds
+[2025-03-05 15:03:03,418 capri INFO] Found previous CNS step: 01_emscoring
+[2025-03-05 15:03:03,717 capri INFO] Saved scoring weights to: weights_params.json
+[2025-03-05 15:03:03,717 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2025-03-05 15:03:03,719 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:03:03,719 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:04,164 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:04,165 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2025-03-05 15:03:04,166 cli_clean INFO] Compressing '../01_emscoring' folder
+[2025-03-05 15:03:04,166 clean_steps INFO] Cleaning output for '../01_emscoring' using 4 cores.
+[2025-03-05 15:03:04,989 libtimer INFO] compressing took 1 seconds
+[2025-03-05 15:03:04,989 cli_analyse INFO] CAPRI files identified
+[2025-03-05 15:03:04,991 cli_analyse INFO] Plotting results..
+[2025-03-05 15:03:05,551 cli_analyse INFO] Summary archive summary.tgz created!
+[2025-03-05 15:03:05,551 cli_analyse INFO] Analysing step 03_alascan
+[2025-03-05 15:03:05,551 cli_unpack INFO] Unpacking '../01_emscoring' folder
+[2025-03-05 15:03:05,954 libtimer INFO] unpacking took 0 seconds
+[2025-03-05 15:03:05,972 capri INFO] Found previous CNS step: 01_emscoring
+[2025-03-05 15:03:06,275 capri INFO] Saved scoring weights to: weights_params.json
+[2025-03-05 15:03:06,275 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2025-03-05 15:03:06,277 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:03:06,278 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:06,727 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:06,727 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2025-03-05 15:03:06,729 cli_clean INFO] Compressing '../01_emscoring' folder
+[2025-03-05 15:03:06,729 clean_steps INFO] Cleaning output for '../01_emscoring' using 4 cores.
+[2025-03-05 15:03:07,572 libtimer INFO] compressing took 1 seconds
+[2025-03-05 15:03:07,573 cli_analyse INFO] CAPRI files identified
+[2025-03-05 15:03:07,574 cli_analyse INFO] Plotting results..
+[2025-03-05 15:03:08,142 cli_analyse INFO] Summary archive summary.tgz created!
+[2025-03-05 15:03:08,143 cli_analyse INFO] Analysing step 04_alascan
+[2025-03-05 15:03:08,143 cli_unpack INFO] Unpacking '../01_emscoring' folder
+[2025-03-05 15:03:08,581 libtimer INFO] unpacking took 0 seconds
+[2025-03-05 15:03:08,599 capri INFO] Found previous CNS step: 01_emscoring
+[2025-03-05 15:03:08,902 capri INFO] Saved scoring weights to: weights_params.json
+[2025-03-05 15:03:08,902 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2025-03-05 15:03:08,904 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:03:08,904 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:09,359 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:09,359 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2025-03-05 15:03:09,361 cli_clean INFO] Compressing '../01_emscoring' folder
+[2025-03-05 15:03:09,361 clean_steps INFO] Cleaning output for '../01_emscoring' using 4 cores.
+[2025-03-05 15:03:10,293 libtimer INFO] compressing took 1 seconds
+[2025-03-05 15:03:10,294 cli_analyse INFO] CAPRI files identified
+[2025-03-05 15:03:10,295 cli_analyse INFO] Plotting results..
+[2025-03-05 15:03:10,872 cli_analyse INFO] Summary archive summary.tgz created!
+[2025-03-05 15:03:10,872 cli_analyse INFO] Analysing step 05_alascan
+[2025-03-05 15:03:10,872 cli_unpack INFO] Unpacking '../01_emscoring' folder
+[2025-03-05 15:03:11,309 libtimer INFO] unpacking took 0 seconds
+[2025-03-05 15:03:11,329 capri INFO] Found previous CNS step: 01_emscoring
+[2025-03-05 15:03:11,639 capri INFO] Saved scoring weights to: weights_params.json
+[2025-03-05 15:03:11,639 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2025-03-05 15:03:11,641 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:03:11,641 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:12,091 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:12,092 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2025-03-05 15:03:12,093 cli_clean INFO] Compressing '../01_emscoring' folder
+[2025-03-05 15:03:12,093 clean_steps INFO] Cleaning output for '../01_emscoring' using 4 cores.
+[2025-03-05 15:03:12,943 libtimer INFO] compressing took 1 seconds
+[2025-03-05 15:03:12,943 cli_analyse INFO] CAPRI files identified
+[2025-03-05 15:03:12,945 cli_analyse INFO] Plotting results..
+[2025-03-05 15:03:13,488 cli_analyse INFO] Summary archive summary.tgz created!
+[2025-03-05 15:03:13,488 cli_analyse INFO] Analysing step 06_alascan
+[2025-03-05 15:03:13,489 cli_unpack INFO] Unpacking '../01_emscoring' folder
+[2025-03-05 15:03:13,905 libtimer INFO] unpacking took 0 seconds
+[2025-03-05 15:03:13,925 capri INFO] Found previous CNS step: 01_emscoring
+[2025-03-05 15:03:14,244 capri INFO] Saved scoring weights to: weights_params.json
+[2025-03-05 15:03:14,244 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2025-03-05 15:03:14,246 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:03:14,246 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:14,703 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:14,704 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2025-03-05 15:03:14,705 cli_clean INFO] Compressing '../01_emscoring' folder
+[2025-03-05 15:03:14,705 clean_steps INFO] Cleaning output for '../01_emscoring' using 4 cores.
+[2025-03-05 15:03:15,578 libtimer INFO] compressing took 1 seconds
+[2025-03-05 15:03:15,578 cli_analyse INFO] CAPRI files identified
+[2025-03-05 15:03:15,580 cli_analyse INFO] Plotting results..
+[2025-03-05 15:03:16,166 cli_analyse INFO] Summary archive summary.tgz created!
+[2025-03-05 15:03:16,167 cli_analyse INFO] Analysing step 07_alascan
+[2025-03-05 15:03:16,168 cli_unpack INFO] Unpacking '../01_emscoring' folder
+[2025-03-05 15:03:16,625 libtimer INFO] unpacking took 0 seconds
+[2025-03-05 15:03:16,645 capri INFO] Found previous CNS step: 01_emscoring
+[2025-03-05 15:03:16,961 capri INFO] Saved scoring weights to: weights_params.json
+[2025-03-05 15:03:16,961 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2025-03-05 15:03:16,963 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:03:16,963 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:17,450 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:17,450 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2025-03-05 15:03:17,452 cli_clean INFO] Compressing '../01_emscoring' folder
+[2025-03-05 15:03:17,452 clean_steps INFO] Cleaning output for '../01_emscoring' using 4 cores.
+[2025-03-05 15:03:18,335 libtimer INFO] compressing took 1 seconds
+[2025-03-05 15:03:18,335 cli_analyse INFO] CAPRI files identified
+[2025-03-05 15:03:18,337 cli_analyse INFO] Plotting results..
+[2025-03-05 15:03:18,904 cli_analyse INFO] Summary archive summary.tgz created!
+[2025-03-05 15:03:18,904 cli_analyse INFO] Analysing step 08_alascan
+[2025-03-05 15:03:18,905 cli_unpack INFO] Unpacking '../01_emscoring' folder
+[2025-03-05 15:03:19,370 libtimer INFO] unpacking took 0 seconds
+[2025-03-05 15:03:19,390 capri INFO] Found previous CNS step: 01_emscoring
+[2025-03-05 15:03:19,716 capri INFO] Saved scoring weights to: weights_params.json
+[2025-03-05 15:03:19,716 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2025-03-05 15:03:19,718 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:03:19,718 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:20,175 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:20,176 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2025-03-05 15:03:20,177 cli_clean INFO] Compressing '../01_emscoring' folder
+[2025-03-05 15:03:20,177 clean_steps INFO] Cleaning output for '../01_emscoring' using 4 cores.
+[2025-03-05 15:03:21,061 libtimer INFO] compressing took 1 seconds
+[2025-03-05 15:03:21,061 cli_analyse INFO] CAPRI files identified
+[2025-03-05 15:03:21,063 cli_analyse INFO] Plotting results..
+[2025-03-05 15:03:21,647 cli_analyse INFO] Summary archive summary.tgz created!
+[2025-03-05 15:03:21,647 cli_analyse INFO] Analysing step 09_alascan
+[2025-03-05 15:03:21,648 cli_unpack INFO] Unpacking '../01_emscoring' folder
+[2025-03-05 15:03:22,096 libtimer INFO] unpacking took 0 seconds
+[2025-03-05 15:03:22,117 capri INFO] Found previous CNS step: 01_emscoring
+[2025-03-05 15:03:22,450 capri INFO] Saved scoring weights to: weights_params.json
+[2025-03-05 15:03:22,450 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2025-03-05 15:03:22,466 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:03:22,467 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:22,950 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:22,951 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2025-03-05 15:03:22,953 cli_clean INFO] Compressing '../01_emscoring' folder
+[2025-03-05 15:03:22,953 clean_steps INFO] Cleaning output for '../01_emscoring' using 4 cores.
+[2025-03-05 15:03:23,807 libtimer INFO] compressing took 1 seconds
+[2025-03-05 15:03:23,807 cli_analyse INFO] CAPRI files identified
+[2025-03-05 15:03:23,809 cli_analyse INFO] Plotting results..
+[2025-03-05 15:03:24,353 cli_analyse INFO] Summary archive summary.tgz created!
+[2025-03-05 15:03:24,353 cli_analyse INFO] Analysing step 10_alascan
+[2025-03-05 15:03:24,354 cli_unpack INFO] Unpacking '../01_emscoring' folder
+[2025-03-05 15:03:24,781 libtimer INFO] unpacking took 0 seconds
+[2025-03-05 15:03:24,801 capri INFO] Found previous CNS step: 01_emscoring
+[2025-03-05 15:03:25,122 capri INFO] Saved scoring weights to: weights_params.json
+[2025-03-05 15:03:25,122 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2025-03-05 15:03:25,124 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:03:25,125 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:25,577 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:25,577 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2025-03-05 15:03:25,578 cli_clean INFO] Compressing '../01_emscoring' folder
+[2025-03-05 15:03:25,579 clean_steps INFO] Cleaning output for '../01_emscoring' using 4 cores.
+[2025-03-05 15:03:26,420 libtimer INFO] compressing took 1 seconds
+[2025-03-05 15:03:26,420 cli_analyse INFO] CAPRI files identified
+[2025-03-05 15:03:26,422 cli_analyse INFO] Plotting results..
+[2025-03-05 15:03:27,015 cli_analyse INFO] Summary archive summary.tgz created!
+[2025-03-05 15:03:27,015 cli_analyse INFO] Analysing step 11_alascan
+[2025-03-05 15:03:27,016 cli_unpack INFO] Unpacking '../01_emscoring' folder
+[2025-03-05 15:03:27,442 libtimer INFO] unpacking took 0 seconds
+[2025-03-05 15:03:27,461 capri INFO] Found previous CNS step: 01_emscoring
+[2025-03-05 15:03:27,765 capri INFO] Saved scoring weights to: weights_params.json
+[2025-03-05 15:03:27,765 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2025-03-05 15:03:27,767 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:03:27,767 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:28,218 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:28,218 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2025-03-05 15:03:28,220 cli_clean INFO] Compressing '../01_emscoring' folder
+[2025-03-05 15:03:28,220 clean_steps INFO] Cleaning output for '../01_emscoring' using 4 cores.
+[2025-03-05 15:03:29,100 libtimer INFO] compressing took 1 seconds
+[2025-03-05 15:03:29,100 cli_analyse INFO] CAPRI files identified
+[2025-03-05 15:03:29,102 cli_analyse INFO] Plotting results..
+[2025-03-05 15:03:29,658 cli_analyse INFO] Summary archive summary.tgz created!
+[2025-03-05 15:03:29,658 cli_analyse INFO] Analysing step 12_alascan
+[2025-03-05 15:03:29,659 cli_unpack INFO] Unpacking '../01_emscoring' folder
+[2025-03-05 15:03:30,106 libtimer INFO] unpacking took 0 seconds
+[2025-03-05 15:03:30,125 capri INFO] Found previous CNS step: 01_emscoring
+[2025-03-05 15:03:30,446 capri INFO] Saved scoring weights to: weights_params.json
+[2025-03-05 15:03:30,446 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2025-03-05 15:03:30,448 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:03:30,448 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:30,912 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:30,912 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2025-03-05 15:03:30,914 cli_clean INFO] Compressing '../01_emscoring' folder
+[2025-03-05 15:03:30,914 clean_steps INFO] Cleaning output for '../01_emscoring' using 4 cores.
+[2025-03-05 15:03:31,778 libtimer INFO] compressing took 1 seconds
+[2025-03-05 15:03:31,778 cli_analyse INFO] CAPRI files identified
+[2025-03-05 15:03:31,780 cli_analyse INFO] Plotting results..
+[2025-03-05 15:03:32,398 cli_analyse INFO] Summary archive summary.tgz created!
+[2025-03-05 15:03:32,398 cli_analyse INFO] Analysing step 13_alascan
+[2025-03-05 15:03:32,399 cli_unpack INFO] Unpacking '../01_emscoring' folder
+[2025-03-05 15:03:32,850 libtimer INFO] unpacking took 0 seconds
+[2025-03-05 15:03:32,870 capri INFO] Found previous CNS step: 01_emscoring
+[2025-03-05 15:03:33,194 capri INFO] Saved scoring weights to: weights_params.json
+[2025-03-05 15:03:33,194 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2025-03-05 15:03:33,196 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:03:33,196 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:33,653 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:33,654 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2025-03-05 15:03:33,656 cli_clean INFO] Compressing '../01_emscoring' folder
+[2025-03-05 15:03:33,656 clean_steps INFO] Cleaning output for '../01_emscoring' using 4 cores.
+[2025-03-05 15:03:34,515 libtimer INFO] compressing took 1 seconds
+[2025-03-05 15:03:34,515 cli_analyse INFO] CAPRI files identified
+[2025-03-05 15:03:34,517 cli_analyse INFO] Plotting results..
+[2025-03-05 15:03:35,073 cli_analyse INFO] Summary archive summary.tgz created!
+[2025-03-05 15:03:35,073 cli_analyse INFO] Analysing step 14_alascan
+[2025-03-05 15:03:35,074 cli_unpack INFO] Unpacking '../01_emscoring' folder
+[2025-03-05 15:03:35,498 libtimer INFO] unpacking took 0 seconds
+[2025-03-05 15:03:35,518 capri INFO] Found previous CNS step: 01_emscoring
+[2025-03-05 15:03:35,835 capri INFO] Saved scoring weights to: weights_params.json
+[2025-03-05 15:03:35,835 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2025-03-05 15:03:35,837 libutil INFO] Selected 1 cores to process 1 jobs, with 8 maximum available cores.
+[2025-03-05 15:03:35,837 libparallel INFO] Using 1 cores
+[2025-03-05 15:03:36,288 libparallel INFO] 1 tasks finished
+[2025-03-05 15:03:36,288 capri INFO] Rearranging cluster information into capri_clt.tsv
+[2025-03-05 15:03:36,290 cli_clean INFO] Compressing '../01_emscoring' folder
+[2025-03-05 15:03:36,290 clean_steps INFO] Cleaning output for '../01_emscoring' using 4 cores.
+[2025-03-05 15:03:37,125 libtimer INFO] compressing took 1 seconds
+[2025-03-05 15:03:37,125 cli_analyse INFO] CAPRI files identified
+[2025-03-05 15:03:37,127 cli_analyse INFO] Plotting results..
+[2025-03-05 15:03:37,725 cli_analyse INFO] Summary archive summary.tgz created!
+[2025-03-05 15:03:37,725 cli_analyse INFO] moving files to analysis folder
+[2025-03-05 15:03:37,726 cli_analyse INFO] cancelling unsuccesful analysis folders
+[2025-03-05 15:03:37,726 cli_analyse INFO] updating paths in analysis/01_emscoring_analysis/capri_ss.tsv
+[2025-03-05 15:03:37,727 cli_analyse INFO] View the results in analysis/01_emscoring_analysis/report.html
+[2025-03-05 15:03:37,727 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/01_emscoring_analysis/report.html in a web browser.
+[2025-03-05 15:03:37,727 cli_analyse INFO] updating paths in analysis/02_contactmap_analysis/capri_ss.tsv
+[2025-03-05 15:03:37,727 cli_analyse INFO] View the results in analysis/02_contactmap_analysis/report.html
+[2025-03-05 15:03:37,727 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/02_contactmap_analysis/report.html in a web browser.
+[2025-03-05 15:03:37,727 cli_analyse INFO] updating paths in analysis/03_alascan_analysis/capri_ss.tsv
+[2025-03-05 15:03:37,727 cli_analyse INFO] View the results in analysis/03_alascan_analysis/report.html
+[2025-03-05 15:03:37,727 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/03_alascan_analysis/report.html in a web browser.
+[2025-03-05 15:03:37,727 cli_analyse INFO] updating paths in analysis/04_alascan_analysis/capri_ss.tsv
+[2025-03-05 15:03:37,727 cli_analyse INFO] View the results in analysis/04_alascan_analysis/report.html
+[2025-03-05 15:03:37,728 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/04_alascan_analysis/report.html in a web browser.
+[2025-03-05 15:03:37,728 cli_analyse INFO] updating paths in analysis/05_alascan_analysis/capri_ss.tsv
+[2025-03-05 15:03:37,728 cli_analyse INFO] View the results in analysis/05_alascan_analysis/report.html
+[2025-03-05 15:03:37,728 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/05_alascan_analysis/report.html in a web browser.
+[2025-03-05 15:03:37,728 cli_analyse INFO] updating paths in analysis/06_alascan_analysis/capri_ss.tsv
+[2025-03-05 15:03:37,728 cli_analyse INFO] View the results in analysis/06_alascan_analysis/report.html
+[2025-03-05 15:03:37,728 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/06_alascan_analysis/report.html in a web browser.
+[2025-03-05 15:03:37,728 cli_analyse INFO] updating paths in analysis/07_alascan_analysis/capri_ss.tsv
+[2025-03-05 15:03:37,728 cli_analyse INFO] View the results in analysis/07_alascan_analysis/report.html
+[2025-03-05 15:03:37,728 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/07_alascan_analysis/report.html in a web browser.
+[2025-03-05 15:03:37,728 cli_analyse INFO] updating paths in analysis/08_alascan_analysis/capri_ss.tsv
+[2025-03-05 15:03:37,729 cli_analyse INFO] View the results in analysis/08_alascan_analysis/report.html
+[2025-03-05 15:03:37,729 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/08_alascan_analysis/report.html in a web browser.
+[2025-03-05 15:03:37,729 cli_analyse INFO] updating paths in analysis/09_alascan_analysis/capri_ss.tsv
+[2025-03-05 15:03:37,729 cli_analyse INFO] View the results in analysis/09_alascan_analysis/report.html
+[2025-03-05 15:03:37,729 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/09_alascan_analysis/report.html in a web browser.
+[2025-03-05 15:03:37,729 cli_analyse INFO] updating paths in analysis/10_alascan_analysis/capri_ss.tsv
+[2025-03-05 15:03:37,729 cli_analyse INFO] View the results in analysis/10_alascan_analysis/report.html
+[2025-03-05 15:03:37,729 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/10_alascan_analysis/report.html in a web browser.
+[2025-03-05 15:03:37,729 cli_analyse INFO] updating paths in analysis/11_alascan_analysis/capri_ss.tsv
+[2025-03-05 15:03:37,729 cli_analyse INFO] View the results in analysis/11_alascan_analysis/report.html
+[2025-03-05 15:03:37,729 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/11_alascan_analysis/report.html in a web browser.
+[2025-03-05 15:03:37,729 cli_analyse INFO] updating paths in analysis/12_alascan_analysis/capri_ss.tsv
+[2025-03-05 15:03:37,729 cli_analyse INFO] View the results in analysis/12_alascan_analysis/report.html
+[2025-03-05 15:03:37,729 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/12_alascan_analysis/report.html in a web browser.
+[2025-03-05 15:03:37,729 cli_analyse INFO] updating paths in analysis/13_alascan_analysis/capri_ss.tsv
+[2025-03-05 15:03:37,729 cli_analyse INFO] View the results in analysis/13_alascan_analysis/report.html
+[2025-03-05 15:03:37,729 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/13_alascan_analysis/report.html in a web browser.
+[2025-03-05 15:03:37,729 cli_analyse INFO] updating paths in analysis/14_alascan_analysis/capri_ss.tsv
+[2025-03-05 15:03:37,729 cli_analyse INFO] View the results in analysis/14_alascan_analysis/report.html
+[2025-03-05 15:03:37,729 cli_analyse INFO] To view structures or download the structure files, in a terminal run the command `python -m http.server --directory /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar`. By default, http server runs on `http://0.0.0.0:8000/`. Open the link http://0.0.0.0:8000/analysis/14_alascan_analysis/report.html in a web browser.
+[2025-03-05 15:03:37,730 cli_traceback INFO] Running haddock3-traceback on ./
+[2025-03-05 15:03:37,730 cli_traceback INFO] Reading input run directory
+[2025-03-05 15:03:37,730 cli_traceback INFO] All_steps: 00_topoaa, 01_emscoring, 02_contactmap, 03_alascan, 04_alascan, 05_alascan, 06_alascan, 07_alascan, 08_alascan, 09_alascan, 10_alascan, 11_alascan, 12_alascan, 13_alascan, 14_alascan
+[2025-03-05 15:03:37,731 cli_traceback INFO] Modules not to be analysed: 00_topoaa, 02_contactmap, 03_alascan, 04_alascan, 05_alascan, 06_alascan, 07_alascan, 08_alascan, 09_alascan, 10_alascan, 11_alascan, 12_alascan, 13_alascan, 14_alascan
+[2025-03-05 15:03:37,731 cli_traceback INFO] Steps to trace back: 01_emscoring
+[2025-03-05 15:03:37,731 cli_traceback INFO] Created directory: /Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar/traceback
+[2025-03-05 15:03:37,731 cli_traceback INFO] Tracing back step 01_emscoring
+[2025-03-05 15:03:37,733 cli_traceback INFO] Output dataframe traceback/traceback.tsv created with shape (1, 3)
+[2025-03-05 15:03:37,763 clean_steps INFO] Cleaning output for '00_topoaa' using 4 cores.
+[2025-03-05 15:03:39,070 libtimer INFO] cleaning output files took 1 seconds
+[2025-03-05 15:03:39,070 clean_steps INFO] Cleaning output for '01_emscoring' using 4 cores.
+[2025-03-05 15:03:39,487 libtimer INFO] cleaning output files took 0 seconds
+[2025-03-05 15:03:39,487 clean_steps INFO] Cleaning output for '02_contactmap' using 4 cores.
+[2025-03-05 15:03:39,914 libtimer INFO] cleaning output files took 0 seconds
+[2025-03-05 15:03:39,914 clean_steps INFO] Cleaning output for '03_alascan' using 4 cores.
+[2025-03-05 15:03:40,337 libtimer INFO] cleaning output files took 0 seconds
+[2025-03-05 15:03:40,337 clean_steps INFO] Cleaning output for '04_alascan' using 4 cores.
+[2025-03-05 15:03:40,747 libtimer INFO] cleaning output files took 0 seconds
+[2025-03-05 15:03:40,748 clean_steps INFO] Cleaning output for '05_alascan' using 4 cores.
+[2025-03-05 15:03:41,160 libtimer INFO] cleaning output files took 0 seconds
+[2025-03-05 15:03:41,161 clean_steps INFO] Cleaning output for '06_alascan' using 4 cores.
+[2025-03-05 15:03:41,569 libtimer INFO] cleaning output files took 0 seconds
+[2025-03-05 15:03:41,569 clean_steps INFO] Cleaning output for '07_alascan' using 4 cores.
+[2025-03-05 15:03:41,980 libtimer INFO] cleaning output files took 0 seconds
+[2025-03-05 15:03:41,981 clean_steps INFO] Cleaning output for '08_alascan' using 4 cores.
+[2025-03-05 15:03:42,389 libtimer INFO] cleaning output files took 0 seconds
+[2025-03-05 15:03:42,389 clean_steps INFO] Cleaning output for '09_alascan' using 4 cores.
+[2025-03-05 15:03:42,801 libtimer INFO] cleaning output files took 0 seconds
+[2025-03-05 15:03:42,802 clean_steps INFO] Cleaning output for '10_alascan' using 4 cores.
+[2025-03-05 15:03:43,212 libtimer INFO] cleaning output files took 0 seconds
+[2025-03-05 15:03:43,212 clean_steps INFO] Cleaning output for '11_alascan' using 4 cores.
+[2025-03-05 15:03:43,621 libtimer INFO] cleaning output files took 0 seconds
+[2025-03-05 15:03:43,621 clean_steps INFO] Cleaning output for '12_alascan' using 4 cores.
+[2025-03-05 15:03:44,038 libtimer INFO] cleaning output files took 0 seconds
+[2025-03-05 15:03:44,039 clean_steps INFO] Cleaning output for '13_alascan' using 4 cores.
+[2025-03-05 15:03:44,452 libtimer INFO] cleaning output files took 0 seconds
+[2025-03-05 15:03:44,452 clean_steps INFO] Cleaning output for '14_alascan' using 4 cores.
+[2025-03-05 15:03:44,906 libtimer INFO] cleaning output files took 0 seconds
+[2025-03-05 15:03:44,906 cli INFO] This HADDOCK3 run took: 3 minutes and 44 seconds
+[2025-03-05 15:03:44,907 greetings INFO] Your feedback matters in Haddock3! Share your experience and help us grow:
+[2025-03-05 15:03:44,907 greetings INFO] GitHub issues: https://github.com/haddocking/haddock3/issues
+[2025-03-05 15:03:44,907 greetings INFO] BioExcel feedback: https://www.bonvinlab.org/feedback
+[2025-03-05 15:03:44,907 greetings INFO] BioExcel forum: https://ask.bioexcel.eu/c/haddock/6
+[2025-03-05 15:03:44,907 cli INFO] Finished at 05/03/2025 15:03:44. Tchau! Adiós! Tot ziens!

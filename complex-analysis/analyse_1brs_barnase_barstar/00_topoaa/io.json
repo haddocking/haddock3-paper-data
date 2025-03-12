@@ -1,0 +1,85 @@
+{
+    "input": [],
+    "output": [
+        {
+            "0": {
+                "clt_id": null,
+                "clt_model_rank": null,
+                "clt_rank": null,
+                "created": "2025-03-05 15:00:02",
+                "file_name": "1brs_AD_haddock.pdb",
+                "file_type": {
+                    "py/reduce": [
+                        {
+                            "py/type": "haddock.libs.libontology.Format"
+                        },
+                        {
+                            "py/tuple": [
+                                "pdb"
+                            ]
+                        }
+                    ]
+                },
+                "full_name": "1brs_AD_haddock.pdb",
+                "len": NaN,
+                "md5": null,
+                "ori_name": "1brs_AD",
+                "path": "/Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar/00_topoaa",
+                "py/object": "haddock.libs.libontology.PDBFile",
+                "rel_path": {
+                    "py/reduce": [
+                        {
+                            "py/type": "pathlib.PosixPath"
+                        },
+                        {
+                            "py/tuple": [
+                                "..",
+                                "00_topoaa",
+                                "1brs_AD_haddock.pdb"
+                            ]
+                        }
+                    ]
+                },
+                "restr_fname": null,
+                "score": NaN,
+                "seed": null,
+                "topology": {
+                    "created": "2025-03-05 15:00:02",
+                    "file_name": "1brs_AD_haddock.psf",
+                    "file_type": {
+                        "py/reduce": [
+                            {
+                                "py/type": "haddock.libs.libontology.Format"
+                            },
+                            {
+                                "py/tuple": [
+                                    "psf"
+                                ]
+                            }
+                        ]
+                    },
+                    "full_name": "1brs_AD_haddock.psf",
+                    "md5": null,
+                    "path": "/Users/vreys/Desktop/ARTICLES/PUBLICATIONS/haddock3/barnase-barstar/analyse_1brs_barnase_barstar/00_topoaa",
+                    "py/object": "haddock.libs.libontology.TopologyFile",
+                    "rel_path": {
+                        "py/reduce": [
+                            {
+                                "py/type": "pathlib.PosixPath"
+                            },
+                            {
+                                "py/tuple": [
+                                    "..",
+                                    "00_topoaa",
+                                    "1brs_AD_haddock.psf"
+                                ]
+                            }
+                        ]
+                    },
+                    "restr_fname": null
+                },
+                "unw_energies": null
+            }
+        }
+    ]
+}
