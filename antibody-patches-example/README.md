@@ -2,7 +2,7 @@ Antibody-antigen example in which an antibody (`gevokizumab`) targets an antigen
 
 ```bash
 cd data
-./generate_restraints.sh
+./create_ambig_tgz.sh
 ```
 
 making sure you have your `haddock3` environment activated. The script will generate ambiguous restraints for the five possible epitopes and archive them in the `ambig.tbl.tgz` file.
