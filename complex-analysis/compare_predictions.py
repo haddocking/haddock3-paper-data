@@ -5,6 +5,7 @@ import glob
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+from scipy import stats
 
 # Convertions between 1letter fasta and 3 letters for Amino Acids
 AA_L1_CONV = {
@@ -224,6 +225,14 @@ def main(hd3_rundir, skempi_entry):
     correlation = correlation_matrix[0][1]
     print(f"Correlation: {correlation:.3f}")
 
+    # Performs linear regression
+    slope, intercept, _r, _p, _std_err = stats.linregress(delta_haddock_score, skempi_delta_Gs)
+    minx = min(delta_haddock_score)
+    maxx = max(delta_haddock_score)
+    y_xmin = slope * minx + intercept
+    y_xmax = slope * maxx + intercept
+
+
     # Re-order scores by mutation types
     by_muts = {}
     for entry_name, hd3score, dG in zip(entry_names, delta_haddock_score, skempi_delta_Gs):
@@ -238,10 +247,13 @@ def main(hd3_rundir, skempi_entry):
     fig, ax = plt.subplots(1, 1, figsize=(10, 10))
     for i, mut_res in enumerate(sorted(by_muts)):
         hd3scores, ddGs = by_muts[mut_res]
-        ax.scatter(hd3scores, ddGs, label=mut_res, color=color_ramp(i / 20))
+        ax.scatter(hd3scores, ddGs, label=mut_res, color=color_ramp(i / 20), s=70)
+    # Draw linear regression line
+    ax.plot([minx, maxx], [y_xmin, y_xmax], ls="dashed", lw=1, c="gray")
     #ax.scatter(delta_haddock_score, skempi_delta_Gs)
-    ax.set_ylabel("SKEMPI (ΔGwt-ΔGmut)")
-    ax.set_xlabel("ΔHADDOCK score (wt-mut)")
+    ax.set_ylabel("SKEMPI ($\Delta G_{wt}-\Delta G_{mut}$)", fontsize=40)
+    ax.set_xlabel("$\Delta$HADDOCK score (wt-mut)", fontsize=40)
+    ax.tick_params(axis='both', which='major', labelsize=20)
     ax.set_title(
         "Correlation between [alascan] scores and SKEMPI "
         f"experimental values: {correlation:.3f}"
@@ -249,7 +261,7 @@ def main(hd3_rundir, skempi_entry):
     ax.legend(loc="best", title="Mutated to:")
     fig.tight_layout()
     #fig.show()
-    fig.savefig("haddock3-alascan_VS_SKEMPI.png", dpi=300)
+    fig.savefig("haddock3-alascan_VS_SKEMPI.png", dpi=350)
 
 
 if __name__ == "__main__":
