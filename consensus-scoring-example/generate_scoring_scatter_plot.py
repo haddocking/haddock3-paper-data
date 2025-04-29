@@ -29,7 +29,7 @@ for i, cluster in enumerate(unique_clusters):
     df_cluster = df_merged[df_merged['cluster'] == cluster]
     i_cluster = int(cluster)
     if i_cluster < cl_limit:
-        plt.scatter(df_cluster['score'], -df_cluster['voro_score'], c=colors[i], label=f"Cluster {cluster}", marker='x')
+        plt.scatter(df_cluster['score'], -df_cluster['voro_score'], c=colors[i], label=f"Cluster {cluster}", marker='o', s=35)
     elif i_cluster == cl_limit:
         plt.scatter(df_cluster['score'], -df_cluster['voro_score'], c="#DDDBDA", label="Other clusters", s=20)
     else:
@@ -43,7 +43,7 @@ order = [0,2,4,1,5,3]
 plt.legend([handles[idx] for idx in order],[labels[idx] for idx in order])
 
 plt.xlabel('HADDOCK EM score',fontsize=16,)
-plt.ylabel('Voro Jury score',fontsize=16,)
+plt.ylabel('VoroIF-jury score',fontsize=16,)
 # set xticks to -150 to -50
 plt.xticks(np.arange(-150,-30,20))
 plt.yticks(np.arange(0,0.45,0.05))
